@@ -9,6 +9,7 @@ Warstwa elektroniczna
 2378 (chyba lepiej, żeby świeciły się te, które trzeba wcisnąć):
 
 | o | o |
+|---|---|
 | x | o |
 | x | x |
 | o | x |
