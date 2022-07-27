@@ -20,3 +20,5 @@ Warstwa elektroniczna
 7. otwiera się pudełko z zapachami
 8. cztery przyciski - czerwony/różowy+zielony+niebieski+żółty, naciskane w odpowiedniej kolejności puszczają dzięcioła (z domku dla ptaków)
 9. trzeba wypukać kod dzięcioła, otwiera się ostatnia skrytka
+
+dupa
