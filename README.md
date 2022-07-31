@@ -5,6 +5,7 @@ Wedding gift for friends that like escaperooms
 ## Puzzles
 1. Connect cables - connect image/text 8/10 sets, correct answer play sounds of birds 
 2. Put bags with seeds in order from previous puzzle to light led matrix
+
 | o | o |
 |---|---|
 | x | o |
