@@ -2,23 +2,57 @@
 Wedding gift for friends that like escaperooms
 
 # Project assumption
-Warstwa elektroniczna
-1. Połącz kabelki - przewody, którymi łączy się obrazki/tekst - możliwie sporo, nawet z 8-10 par
-2. Kabelki uruchamiają dźwięki ptaszków z domku, do którego trzeba przyłożyć w odpowiedniej kolejności woreczki
-3. zapalają się lampki z kodem do kłódki wciskowej:
-2378 (chyba lepiej, żeby świeciły się te, które trzeba wcisnąć):
-
+## Puzzles
+1. Connect cables - connect image/text 8/10 sets, correct answer play sounds of birds 
+2. Put bags with seeds in order from previous puzzle to light led matrix
 | o | o |
 |---|---|
 | x | o |
 | x | x |
 | o | x |
+3. Open presscode padlock (leds show correct pattern)
+***other padlock time***
+4. Some padlock opens pressure sensor box.
+5. Blow sensor to open box(servo) with toy car
+6. Ride good path over reedswitches to open another box(servo)
+7. Smells from this box are hint for next puzzle
+8. Pressing color pushbuttons in correct order plays woodpecker sounds
+9. Knock woodpecker pattern to open last box
 
-4. Po zagadkach na kłódki: kluczykiem otwiera się otwór (z zewnętrznej części skrzynki) z czujnikiem dmuchania - alkomat
-5. dmuchnięcie otwiera skrzynkę z lawetą
-6. lawetą trzeba przejechać odpowiednią trasę - możliwie skomplikowaną ;)
-7. otwiera się pudełko z zapachami
-8. cztery przyciski - czerwony/różowy+zielony+niebieski+żółty, naciskane w odpowiedniej kolejności puszczają dzięcioła (z domku dla ptaków)
-9. trzeba wypukać kod dzięcioła, otwiera się ostatnia skrytka
+# BOM
+- power supply
+- DC jack socket
+- dc/dc converter
+- arduino mega
+- banana plugs and sockets
+- wires
+- 3x servo sg90
+- DFplayer
+- sd card
+- speaker
+- MFRC522 rfid reader
+- 5mm leds with bracket
+- bmp280
+- few reed switches
+- 4 push buttons red/green/blue/yellow
+- piezo knock sensor
+ 
 
-dupa
+# GPIO usage
+- 8-10 Analogs for banaplugs
+- 1 uart for DFplayer
+- 1 spi for rfid
+- 1 i2c for bmp280
+- 8 GPIO OUTPUT for led matrix
+- 8? GPIO INPUT for reed switches
+- 3 PWM for servo
+- 4 GPIO INPUT for pushbuttons
+- 1 GPIO INPUT for knock sensor
+
+## Summary (max)
+- 10 Analogs
+- 1 UART
+- 1 SPI
+- 1 $I^2C$
+- 21 GPIO
+- 3 PWM
