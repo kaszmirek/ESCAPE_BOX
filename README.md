@@ -12,7 +12,8 @@ Wedding gift for friends that like escaperooms
 | x | x |
 | o | x |
 3. Open presscode padlock (leds show correct pattern)
-***other padlock time***
+
+*other padlock time*
 4. Some padlock opens pressure sensor box.
 5. Blow sensor to open box(servo) with toy car
 6. Ride good path over reedswitches to open another box(servo)
